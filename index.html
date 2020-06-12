@@ -13,12 +13,30 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
+        font-size: 25px;
+        color:white;
+        font-family: "Times New Roman", Times, serif;
+
+        }
+
+        div.pagination {
+            
+            font-size: 30px;
         }
          
-
-
-
+        div.one{
+            text-align: center;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        ul.three{
+        
+            list-style-type: circle;
+        }
+        
     </style>
+        
+        
 </head>
 <body background="file:///C:/Users/Niku/Desktop/New%20folder%20(5)/imageB.webp">
 <div id ="loading">
@@ -36,40 +54,32 @@
     <h4>
         Check me on <a id="githubLink" style="color:white;">Github</a>
     </h4>
-    <!--<a class="twitter-timeline" data-width="300" data-height="500"
+    <a class="twitter-timeline" data-width="300" data-height="500"
        href="https://twitter.com/TwitterDev/lists/national-parks?ref_src=twsrc%5Etfw">A Twitter List by TwitterDev</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
-<h1 style="color: yellow;">My Project</h1>
-<h2 style="color: yellow;">View my work here.</h2>
+<h1 style="color: yellow; text-decoration: underline; font-family:Times New Roman, Times, serif;">My Projects</h1>
+<p style="color: yellow; font-size: 25px; font-family:Times New Roman, Times, serif;">View my work here.......</p>
 <div class="pagination">
     <!--<a href="#">&laquo;</a>-->
-
-    <a id="R1" target="_blank">BASIC-CRUD-LARAVEL</a>
-    <a id="R2" target="_blank">Basic-Static-Website</a>
-    <a id="R3" target="_blank">Basic-Website</a>
-    <a id="R4" target="_blank">COMTECH</a>
-    <a id="R5" target="_blank">CRUD</a>
-    <a id="R6" target="_blank">CRUD-Laravel-ReactJS</a>
-    <a id="R7" target="_blank">Data-Analytics-Projects</a>
-    <a id="R8" target="_blank">Django-Customer-Management</a>
-    <a id="R9" target="_blank">Django-TODO-LIST</a>
-    <a id="R10" target="_blank">doctor_booking_app</a>
-    <a id="R11" target="_blank">ecom-template</a>
-    <a id="R12" target="_blank">FitnessApp</a>
-    <a id="R13" target="_blank">Flutter-Google-Maps</a>
+    <ul class="three" style="color: white;">
+        <li><a id="R1" target="_blank">BASIC-CRUD-LARAVEL</a></li>
+        <li><a id="R2" target="_blank">Basic-Static-Website</a></li>
+        <li><a id="R3" target="_blank">Basic-Website</a></li>
+        <li><a id="R4" target="_blank">COMTECH</a></li>
+        <li><a id="R5" target="_blank">CRUD</a></li>
+        <li><a id="R6" target="_blank">CRUD-Laravel-ReactJS</a></li>
+        <li><a id="R7" target="_blank">Data-Analytics-Projects</a></li>
+        <li><a id="R8" target="_blank">Django-Customer-Management</a></li>
+        <li><a id="R9" target="_blank">Django-TODO-LIST</a></li>
+        <li><a id="R10" target="_blank">doctor_booking_app</a></li>
+        <li><a id="R11" target="_blank">ecom-template</a></li>
+        <li><a id="R12" target="_blank">FitnessApp</a></li>
+        <li><a id="R13" target="_blank">Flutter-Google-Maps</a></li>
+    </ul>
     
 </div>
-<!--<div class="one">
-    <p>
-        My passion and interest on learning new things lead me towards this technical field. I am a quick learner as I keep focusing on one thing at a time. I would like to develop my career path developing proficiency in a number of sectors being a full stack developer in coming future.
-    </p>
-    <br>
-    <p>
-        I am here to develop my skills, experience and build my works. I am a trainee and a student who works in order to gain work experience and satify requirenment for a qualification.
-    </p>
-</div>-->
 <script>
     fetch("https://api.github.com/users/nikuthapa")
         .then(response => response.json())
@@ -220,11 +230,19 @@
             })
            
 </script>
-<!--<ol>
+<div class="one">
+    <p>
+        My passion and interest on learning new things lead me towards this technical field. I am a quick learner as I keep focusing on one thing at a time. I would like to develop my career path developing proficiency in a number of sectors being a full stack developer in coming future.
+    </p>
+    <p>
+        I am here to develop my skills, experience and build my works. I am a trainee and a student who works in order to gain work experience and satify requirenment for a qualification.
+    </p>
+</div>
+<!--<ul class= "two">
     <li style="color: yellow">
     <p id="list1"></p>
     <script type="text/javascript">
-        var repos = ["HTML-page", "nikuthapa.github.io"];
+        var repos = ["", ""];
         var text = "";
         var i;
         for (i = 0; i<repos.length; i++){
@@ -233,6 +251,6 @@
         document.getElementById('list1').innerHTML = text;
     </script>
     </li>
-</ol>-->
+</ul>-->
 </body>
 </html>
