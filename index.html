@@ -23,6 +23,36 @@
             
             font-size: 30px;
         }
+
+        .pagination {
+         display: inline-block;
+        }
+
+        .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        }
+
+        .pagination a.active {
+        background-color: #4CAF50;
+        color: white;
+        border: 1px solid #4CAF50;
+        }
+
+        .pagination a:hover:not(.active) {background-color: #ddd;}
+
+        .pagination a:first-child {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        }
+
+        .pagination a:last-child {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        }
          
         div.one{
             text-align: center;
@@ -38,7 +68,7 @@
         
         
 </head>
-<body background="file:///C:/Users/Niku/Desktop/New%20folder%20(5)/imageB.webp">
+<body>
 <div id ="loading">
     loading.......
 
@@ -54,30 +84,29 @@
     <h4>
         Check me on <a id="githubLink" style="color:white;">Github</a>
     </h4>
-    <a class="twitter-timeline" data-width="300" data-height="500"
+    <!--<a class="twitter-timeline" data-width="300" data-height="500"
        href="https://twitter.com/TwitterDev/lists/national-parks?ref_src=twsrc%5Etfw">A Twitter List by TwitterDev</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
 
 </div>
 <h1 style="color: yellow; text-decoration: underline; font-family:Times New Roman, Times, serif;">My Projects</h1>
 <p style="color: yellow; font-size: 25px; font-family:Times New Roman, Times, serif;">View my work here.......</p>
-<div class="pagination">
-    <!--<a href="#">&laquo;</a>-->
-    <ul class="three" style="color: white;">
-        <li><a id="R1" target="_blank">BASIC-CRUD-LARAVEL</a></li>
-        <li><a id="R2" target="_blank">Basic-Static-Website</a></li>
-        <li><a id="R3" target="_blank">Basic-Website</a></li>
-        <li><a id="R4" target="_blank">COMTECH</a></li>
-        <li><a id="R5" target="_blank">CRUD</a></li>
-        <li><a id="R6" target="_blank">CRUD-Laravel-ReactJS</a></li>
-        <li><a id="R7" target="_blank">Data-Analytics-Projects</a></li>
-        <li><a id="R8" target="_blank">Django-Customer-Management</a></li>
-        <li><a id="R9" target="_blank">Django-TODO-LIST</a></li>
-        <li><a id="R10" target="_blank">doctor_booking_app</a></li>
-        <li><a id="R11" target="_blank">ecom-template</a></li>
-        <li><a id="R12" target="_blank">FitnessApp</a></li>
-        <li><a id="R13" target="_blank">Flutter-Google-Maps</a></li>
-    </ul>
+<div class="pagination" id="pagination-data">
+    <a href="#">&laquo;</a>
+    <a href="#" id="R1" target="_blank">1</a>
+    <a href="#" id="R2" target="_blank">2</a>
+    <a href="#" id="R3" target="_blank">3</a>
+    <a href="#" id="R4" target="_blank">4</a>
+    <a href="#" id="R5" target="_blank">5</a>
+    <a href="#" id="R6" target="_blank">6</a>
+    <a href="#" id="R7" target="_blank">7</a>
+    <a href="#" id="R8" target="_blank">8</a>
+    <a href="#" id="R9" target="_blank">9</a>
+    <a href="#" id="R10" target="_blank">10</a>
+    <a href="#" id="R11" target="_blank">11</a>
+    <a href="#" id="R12" target="_blank">12</a>
+    <a href="#" id="R13" target="_blank">13</a>
+    <a href="#">&raquo;</a>
     
 </div>
 <script>
