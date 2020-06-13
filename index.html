@@ -54,15 +54,6 @@
         border-bottom-right-radius: 5px;
         }
          
-        div.one{
-            text-align: center;
-            text-align: justify;
-            text-justify: inter-word;
-        }
-        ul.three{
-        
-            list-style-type: circle;
-        }
         
     </style>
         
@@ -84,28 +75,28 @@
     <h4>
         Check me on <a id="githubLink" style="color:white;">Github</a>
     </h4>
-    <!--<a class="twitter-timeline" data-width="300" data-height="500"
+    <a class="twitter-timeline" data-width="300" data-height="500"
        href="https://twitter.com/TwitterDev/lists/national-parks?ref_src=twsrc%5Etfw">A Twitter List by TwitterDev</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <p style=" text-align: center; text-align: justify; text-justify: inter-word;">
+        My passion and interest on learning new things lead me towards this technical field. I am a quick learner as I keep focusing on one thing at a time. I would like to develop my career path developing proficiency in a number of sectors being a full stack developer in coming future.<br>
+        I am here to develop my skills, experience and build my works. I am a trainee and a student who works in order to gain work experience and satify requirenment for a qualification.
+    </p>
+
+    <h1 style="color: yellow; text-decoration: underline; font-family:Times New Roman, Times, serif;">My Projects</h1>
+    <p style="color: yellow; font-size: 25px; font-family:Times New Roman, Times, serif;">View my work here.......</p>
+
 
 </div>
-<h1 style="color: yellow; text-decoration: underline; font-family:Times New Roman, Times, serif;">My Projects</h1>
-<p style="color: yellow; font-size: 25px; font-family:Times New Roman, Times, serif;">View my work here.......</p>
-<div class="pagination" id="pagination-data">
+
+<div class="pagination" id="pagination-data" style="text-align: center;">
     <a href="#">&laquo;</a>
     <a href="#" id="R1" target="_blank">1</a>
     <a href="#" id="R2" target="_blank">2</a>
     <a href="#" id="R3" target="_blank">3</a>
     <a href="#" id="R4" target="_blank">4</a>
     <a href="#" id="R5" target="_blank">5</a>
-    <a href="#" id="R6" target="_blank">6</a>
-    <a href="#" id="R7" target="_blank">7</a>
-    <a href="#" id="R8" target="_blank">8</a>
-    <a href="#" id="R9" target="_blank">9</a>
-    <a href="#" id="R10" target="_blank">10</a>
-    <a href="#" id="R11" target="_blank">11</a>
-    <a href="#" id="R12" target="_blank">12</a>
-    <a href="#" id="R13" target="_blank">13</a>
     <a href="#">&raquo;</a>
     
 </div>
@@ -124,162 +115,69 @@
             document.getElementById('followersInformation').textContent = followersInfo
             document.getElementById('githubLink').href = data['html_url']
 
+
             document.getElementById('mainContainer').hidden =false
             document.getElementById('loading').hidden =true
 
         })
 </script>
 <script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/BASIC-CRUD-LARAVEL")
+    fetch("https://api.github.com/repos/nikuthapa/Basic-CSS")
         .then(response => response.json())
         .then(function(data) {
                  console.log(data)
                  document.getElementById('R1').href = data['html_url']
+                 
+                 
 
             })
            
 </script>
 <script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/Basic-Static-Website")
+    fetch("https://api.github.com/repos/nikuthapa/Basic-Django")
         .then(response => response.json())
         .then(function(data) {
                  console.log(data)
                  document.getElementById('R2').href = data['html_url']
+                
 
             })
            
 </script>
 <script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/Basic-Website")
+    fetch("https://api.github.com/repos/nikuthapa/Basic-Python")
         .then(response => response.json())
         .then(function(data) {
                  console.log(data)
                  document.getElementById('R3').href = data['html_url']
+                
 
             })
            
 </script>
 <script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/COMTECH")
+    fetch("https://api.github.com/repos/nikuthapa/HTML-page")
         .then(response => response.json())
         .then(function(data) {
                  console.log(data)
                  document.getElementById('R4').href = data['html_url']
+                
 
             })
            
 </script>
 <script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/CRUD")
+    fetch("https://api.github.com/repos/nikuthapa/nikuthapa.github.io")
         .then(response => response.json())
         .then(function(data) {
                  console.log(data)
                  document.getElementById('R5').href = data['html_url']
+                 
 
             })
            
 </script>
-<script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/CRUD-Laravel-ReactJS")
-        .then(response => response.json())
-        .then(function(data) {
-                 console.log(data)
-                 document.getElementById('R6').href = data['html_url']
 
-            })
-           
-</script>
-<script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/Data-Analytics-Projects")
-        .then(response => response.json())
-        .then(function(data) {
-                 console.log(data)
-                 document.getElementById('R7').href = data['html_url']
 
-            })
-           
-</script>
-<script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/Django-Customer-Management")
-        .then(response => response.json())
-        .then(function(data) {
-                 console.log(data)
-                 document.getElementById('R8').href = data['html_url']
-
-            })
-           
-</script>
-<script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/Django-TODO-LIST")
-        .then(response => response.json())
-        .then(function(data) {
-                 console.log(data)
-                 document.getElementById('R9').href = data['html_url']
-
-            })
-           
-</script>
-<script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/doctor_booking_app")
-        .then(response => response.json())
-        .then(function(data) {
-                 console.log(data)
-                 document.getElementById('R10').href = data['html_url']
-
-            })
-           
-</script>
-<script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/ecom-template")
-        .then(response => response.json())
-        .then(function(data) {
-                 console.log(data)
-                 document.getElementById('R11').href = data['html_url']
-
-            })
-           
-</script>
-<script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/FitnessApp")
-        .then(response => response.json())
-        .then(function(data) {
-                 console.log(data)
-                 document.getElementById('R12').href = data['html_url']
-
-            })
-           
-</script>
-<script type="text/javascript">
-    fetch("https://api.github.com/repos/MohitP197/Flutter-Google-Maps")
-        .then(response => response.json())
-        .then(function(data) {
-                 console.log(data)
-                 document.getElementById('R13').href = data['html_url']
-
-            })
-           
-</script>
-<div class="one">
-    <p>
-        My passion and interest on learning new things lead me towards this technical field. I am a quick learner as I keep focusing on one thing at a time. I would like to develop my career path developing proficiency in a number of sectors being a full stack developer in coming future.
-    </p>
-    <p>
-        I am here to develop my skills, experience and build my works. I am a trainee and a student who works in order to gain work experience and satify requirenment for a qualification.
-    </p>
-</div>
-<!--<ul class= "two">
-    <li style="color: yellow">
-    <p id="list1"></p>
-    <script type="text/javascript">
-        var repos = ["", ""];
-        var text = "";
-        var i;
-        for (i = 0; i<repos.length; i++){
-            text += repos[i] + "<br>";
-        }
-        document.getElementById('list1').innerHTML = text;
-    </script>
-    </li>
-</ul>-->
 </body>
 </html>
